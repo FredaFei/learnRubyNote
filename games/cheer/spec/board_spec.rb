@@ -107,8 +107,9 @@ module Cheer
           [y_cell, empty, empty]
         ]
         board = Board.new(grid: grid)
-        expect(board.game_over).to be_false
+        expect(board.game_over).to eq false
       end
     end
   end
 end
+
