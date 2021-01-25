@@ -27,8 +27,6 @@ test.instance_eval do
   @b = 'new bbb'
 end
 p test.instance_variable_get(:@b) #"new bbb"
-
-
 obj = Object.new
 obj.instance_eval do
   def hi
@@ -39,3 +37,4 @@ p obj.hi
 p obj.singleton_methods # [:hi]
 # p Object.new.hi # error
 #hi method 仅当前obj实例有效
+#接下来看 module.rb

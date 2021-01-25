@@ -15,3 +15,4 @@ p result
 # method 仅仅是一个method，而没有function的特点
 # function 不能作为参数，不能作为返回值，不能赋值给变量
 # 接下来看 class_method.rb
+proc.rb
